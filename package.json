@@ -5,7 +5,8 @@
   "main": "app.js",
   "scripts": {
     "test": "mocha src/tests/*.spec.js",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "coverage": "nyc npm run test"
   },
   "repository": {
     "type": "git",
@@ -23,9 +24,19 @@
     "url": "https://github.com/harmendani/unit-tests-palindrome/issues"
   },
   "homepage": "https://github.com/harmendani/unit-tests-palindrome#readme",
+   "nyc":{
+    "check-coverage": true,
+    "include": "src",
+    "exclude": "*.spec.js",
+    "lines": 99,
+    "statements": 99,
+    "functions": 99,
+    "branches": 99
+   },
   "devDependencies": {
     "chai": "^4.3.6",
     "husky": "^7.0.4",
-    "mocha": "^9.2.2"
+    "mocha": "^9.2.2",
+    "nyc": "^15.1.0"
   }
 }

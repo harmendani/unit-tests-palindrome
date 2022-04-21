@@ -1,5 +1,5 @@
 # A basic Palindrome Checker
-Node.js basic application to check a palindrome with unit tests.
+Node.js basic application to check if word is a palindrome.
 
 ## Palindrome checking rules:
 1. to be Truthy :

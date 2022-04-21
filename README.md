@@ -20,7 +20,7 @@ Node.js basic application to check if word is a palindrome.
 - “Country”
 - “Top . post!”
 - “Wonderful-fool”
-- “Wild imagination!”****
+- “Wild imagination!”
 
 
 ## How to setup and run this App?

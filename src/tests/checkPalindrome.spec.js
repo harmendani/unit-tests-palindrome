@@ -55,7 +55,7 @@ describe('Unit tests for palindrome checker', () => {
         it('Wonderful-fool is not a palindrome', () => {
             expect(palindromeChecker.isPalindrome(notPalindromesWords[4])).to.be.false;
         });
-        it('Wild imagination!”**** is a palindrome', () => {
+        it('Wild imagination!is a palindrome', () => {
             expect(palindromeChecker.isPalindrome(notPalindromesWords[5])).to.be.false;
         });
     });
